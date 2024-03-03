@@ -1,0 +1,55 @@
+.navbar-brand
+{
+    font-family: 'Sacramento', cursive;
+    font-weight:bold;
+    font-size: x-large;
+    text-shadow: 2px 2px 2px #ababab;
+    margin-left: 5px;
+}
+.profile-img {
+    border-radius: 50%;
+    height: 100px;
+  }
+.container-fluid
+{
+    background-image: url(./images/navbar.jpg);
+}
+.nav-item
+{
+    font-family:'Courier New', Courier, monospace ;
+    font-weight: bold;
+}
+.title
+{
+    background-image: linear-gradient(to right top, #d1f26b, #dce86c, #e3de70, #e7d575, #e9cc7c, #e6cf87, #e3d193, #e1d39e, #dfdeb2, #e0e8c7, #e6f0db, #eff8ed);
+    background-size: 100% 100%;
+}
+.g-col-6
+{
+    gap: 10px;
+    border: 1px solid orangered ;
+    border-radius: 5px;
+}
+.main
+{
+    margin: 5%;
+}
+@media(max-width:788px) and (min-width:450px)
+{
+    .main{
+        height: 200px;
+        width: 200px;
+    }
+}
+@media(max-width:450px)
+{
+    .main{
+        height: 100px;
+        width: 100px;
+    }
+}
+.products
+{
+    border:1px solid orangered;
+    margin:10px 10px ;
+}
