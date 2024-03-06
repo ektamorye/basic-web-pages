@@ -1,0 +1,36 @@
+
+.row-background {
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+h1 {
+    text-align: center;
+    text-shadow: 3px 3px 3px blue;
+}
+.text-warning{
+    text-shadow: 2px 3px 3px rgb(158, 110, 6);
+}
+h6 {
+    text-align: center;
+    text-shadow: 3px 3px 3px grey;
+}
+button {
+    align-items: center;
+}  
+
+.arbert {
+    font-family: "Poppins", sans-serif;
+}
+.retro {
+    font-family: "VT323", monospace;
+    font-weight: 300;
+}
+.scr {
+    font-family: "Style Script", cursive;
+}
+.img-fluid{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
